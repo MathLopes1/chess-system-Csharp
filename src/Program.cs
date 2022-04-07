@@ -7,7 +7,9 @@ namespace src
         static void Main(string[] args)
         {
             Board board = new Board(8, 8);
-            Console.WriteLine(board);
+            Screen.printBoard(board);
+
+            Console.WriteLine();
         }
     }
 }
